@@ -1,0 +1,96 @@
+body{
+    background:linear-gradient(to left,#1e1d1d,#363124,black);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: aliceblue;   
+}
+
+.liens, a{
+    display: flex;
+    justify-content:end;
+    color: aliceblue;
+}
+
+.logoEnveloppePourAdresseMail{
+    justify-content: flex-start;
+}
+
+.logoEtAdresseMail{
+    display: flex;
+    justify-content: start;
+}
+
+.logoHtmlCssGithub{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-credit {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 768px){
+
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px; 
+        text-align: center;
+           
+    }
+
+    .imageDuSite img{
+        /* height: 20px; */
+        width: 60%;
+      
+    }
+
+}
+@media screen and (max-width: 728px){
+
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px; 
+        text-align: center;
+          
+    }
+
+    .imageDuSite img{
+        /* height: 20px; */
+        width: 60%;
+     
+    }
+
+}
+
+
